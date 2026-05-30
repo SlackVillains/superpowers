@@ -4,7 +4,7 @@ Superpowers is a complete software development methodology for your coding agent
 
 ## Quickstart
 
-Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
+Give your agent Superpowers: [Claude Code](#claude-code), [Codex CLI](#codex-cli), [Codex App](#codex-app), [Continue](#continue), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [OpenCode](#opencode), [Cursor](#cursor), [GitHub Copilot CLI](#github-copilot-cli).
 
 ## How it works
 
@@ -126,6 +126,22 @@ already use it in another harness.
   ```
 
 - Detailed docs: [docs/README.opencode.md](docs/README.opencode.md)
+
+### Continue
+
+- Clone superpowers to your Continue config directory:
+
+  ```bash
+  git clone https://github.com/obra/superpowers ~/.continue/superpowers
+  ```
+
+- Copy the bootstrap rule into your Continue rules directory:
+
+  ```bash
+  cp ~/.continue/superpowers/.continue-plugin/rules/superpowers.md ~/.continue/rules/superpowers.md
+  ```
+
+- Detailed docs: [docs/README.continue.md](docs/README.continue.md)
 
 ### Cursor
 
